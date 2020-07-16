@@ -1,0 +1,49 @@
+#main {
+  background-color: rgb(230,230,230);
+  border-radius: 1%;
+  font-family: Heebo;
+}
+
+#title {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 55px;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+#f {
+  text-align: center;
+}
+
+#img-div {
+    background-color: white;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-caption {
+    padding: 0px;
+}
+
+#h {
+  text-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+h3 {
+  padding: 40px 40px;
+  font-size: 24px;
+}
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+}
