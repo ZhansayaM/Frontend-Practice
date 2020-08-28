@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="https://webhook.site/86801cbe-99dc-488d-a473-fb99d0f7c152" method="POST">
+    <label>Имя
+        <input type="text" name="name" placeholder="Name" required>
+    </label>
+    <br>
+    <label>Фамилия
+        <input type="text" name="surname" placeholder="Surname" required>
+    </label>
+    <br>
+    <label>Страна
+        <select name="country" required>
+            <option value="Беларусь">Беларусь</option>
+            <option value="Россия">Россия</option>
+            <option value="Украина">Украина</option>
+            <option value="Казахстан">Казахстан</option>
+            <option value="Другая">Другая</option>
+        </select>
+    </label>
+    <br>
+    <label>Пол
+        <input type="radio" name="gender" id="male" checked value="Мужской"><label for="male" required>Мужской</label>
+        <input type="radio" name="gender" id="female"><label for="female" value="Женский">Женский</label>
+    </label>
+    <br>
+    <label>Дата рождения
+        <select name="date" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="month" required>
+            <option value="Январь">Январь</option>
+            <option value="Февраль">Февраль</option>
+            <option value="Март">Март</option>
+            <option value="Апрель">Апрель</option>
+            <option value="Май">Май</option>
+            <option value="Июнь">Июнь</option>
+            <option value="Июль">Июль</option>
+            <option value="Август">Август</option>
+            <option value="Сентябрь">Сентябрь</option>
+            <option value="Октябрь">Октябрь</option>
+            <option value="Ноябрь">Ноябрь</option>
+            <option value="Декабрь">Декабрь</option>
+        </select>
+        <select name="year" required>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+        </select>
+    </label>
+    <br>
+    <label>Семейное положение
+        <input type="radio" name="family" id="no" required value="Холост/не замужем"><label for="no">Холост/не замужем</label>
+        <input type="radio" name="family" id="yes" required value="В браке"><label for="yes">В браке</label>
+        <input type="radio" name="family" id="yet" required value="Разведен(а)"><label for="yet">Разведен(а)</label>
+    </label>
+    <br>
+    <label>Email
+        <input type="email" name="email" required placeholder="email">
+    </label>
+    <br>
+    <label>Телефон
+        <select name="phone">
+            <option value="+375">+375</option>
+            <option value="+7">+7</option>
+            <option value="+380">+380</option>
+        </select>
+        <input type="text" name="phone_number" placeholder="phone number">
+    </label>
+    <br>
+    <label>Обо мне
+        <textarea raws="10" cols="50" name="about_me" placeholder="write something about you"></textarea>
+    </label>
+    <br>
+    <label>Какой поисковой системой пользуетесь?
+        <input type="checkbox" name="company[]" id="Google" value="Google"><label for="Google">Google</labelfor>
+        <input type="checkbox" name="company[]" id="Yandex" value="Yandex"><label for="Yandex">Yandex</label>
+        <input type="checkbox" name="company[]" id="Yahoo" value="Yahoo"><label for="Yahoo">Yahoo</label>
+    </label>
+    <br>
+    <label>Введите пароль
+        <input type="password" name="password" required maxlength="10" placeholder="password">
+    </label>
+    <br>
+    <label>Повторите пароль
+        <input type="password" name="check_the_password" required maxlength="10" placeholder="type the password again">
+    </label>
+    <br>
+    <p>Условия сайта - <a href="https://itlogia.ru/">нажмите на ссылку</a>       <input type="checkbox" name="accept" id="accept"><label for="accept">Принимаю условия сайта</label>
+    </p>
+    <br>
+    <input type="submit" name="register" value="Зарегистрироваться">
+</form>
+</body>
+</html>
