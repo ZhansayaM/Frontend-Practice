@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+h1{
+    font-size: 50px;
+    line-height: 59px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 88px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+h2{
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 58px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 49px;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 83px;
+    margin-bottom: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+ul{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+img{
+    border-radius: 20px;
+    margin: 10px 10px;
+    width: 350px;
+}
+form{
+    margin-bottom: 105px;
+    text-align: center;
+}
+input{
+    width: 429px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 22px 265px 23px 25px;
+    margin-top: 32px;
+}
+button{
+    margin-top: 32px;
+    background: #008968;
+    border-radius: 20px;
+    width: 429px;
+    height: 80px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding: 23px 138px 22px 140px;
+}
