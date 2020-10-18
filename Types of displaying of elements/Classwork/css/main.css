@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color: rgb(54, 54, 54);
+    padding: 26px 0 32px 0;
+    text-align: center;
+}
+#header .header-item{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 25px;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(170,204,220);
+    text-decoration: none;
+}
+.logo span{
+    color: #d7a84d;
+}
+#header a{
+    margin: 0 25px;
+    vertical-align: middle;
+}
+#main-container{
+    max-width: 1200px;
+    margin: 102px auto 145px auto;
+}
+#main-info{
+    max-width: 530px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#main-info h1{
+    font-size: 45px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.222;
+    margin:0;
+}
+#main-info-text{
+    font-size: 17px;
+    color: rgb(57, 39, 3);
+    line-height: 1.471;
+    max-width: 420px;
+    margin-top: 50px;
+}
+#main-info-action button{
+    padding: 22px;
+    background-color: rgb(170, 204, 220);
+    width: 232px;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 97px;
+}
+#main-image{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 180px;
+}
+#how{
+    background: #d7a84d;
+    color:white;
+}
+#how-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 130px 0 137px 0;
+}
+#how-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+#how-items{
+    margin-top: 8px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+#how-items .how-item{
+    display: inline-block;
+    margin-top: 54px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+#how-items .how-item .how-item-text{
+    max-width: 221px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#how-items .how-item .how-item-image{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+#footer{
+    background: #363636;
+    color: white;
+}
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+#footer .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+#footer-time{
+    margin-left: 296px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#footer-phones{
+    margin-left: 289px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
