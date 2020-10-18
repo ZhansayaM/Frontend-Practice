@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+#main{
+    background-image: url("../images/Bg.png");
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    padding: 51px 0;
+}
+#main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    color: white;
+    font-size: 16px;
+    margin-right: 208px;
+}
+#header .menu-item{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 100px;
+}
+#info{
+    padding: 260px 0 150px 0;
+}
+#info h1{
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    max-width: 460px;
+}
+#actions{
+    margin-top: 45px;
+}
+#actions button{
+    width: 228px;
+    height: 57px;
+    color: white;
+    font-size: 18px;
+}
+#action-reserve{
+    background-color: rgb(47,134,60);
+    border: 1px solid rgb(47,134,60);
+    margin-right: 30px;
+}
+#action-show-menu{
+    border: 1px solid white;
+    background: transparent;
+}
+#food{
+    background: #f2f2f2;
+    padding: 76px 0 137px 0;
+}
+#food-container{
+    max-width: 520px;
+    margin: 0 auto;
+}
+#food-title{
+    font-size: 36px;
+    color: rgb(204,153,0);
+    font-weight: bold;
+    text-align: center;
+}
+#food-text{
+    font-size: 16px;
+    color: rgb(76,76,76);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 435px;
+    margin: 43px auto 0 auto;
+}
+#food-image{
+    margin-top: 43px;
+    text-align: center;
+}
