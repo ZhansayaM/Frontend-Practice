@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+#header{
+    background: #293254;
+}
+#header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logo span{
+    color: #D78E2D;
+}
+#menu-items{
+    margin-left: 184px;
+    margin-right: 303px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu-items .menu-item{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B8BACD;
+    margin: 0 30px;
+    text-decoration: none;
+}
+#menu-items .menu-item:active{
+    color:white;
+}
+#menu-items .menu-item:hover{
+    color: #D78E2D;
+}
+#header-search{
+    display: inline-block;
+    vertical-align: middle;
+}
+#main{
+    background: #fbfbfc;
+}
+#main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#main-title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #0B0F1F;
+}
+#boxes{
+    margin-top: 40px;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.box{
+    width: 586px;
+    height: 253px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px;
+}
+.box:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.41);
+}
+.box img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px 0 0 10px;
+}
+.box .box-info{
+    display: inline-block;
+    vertical-align: middle;
+    width: 287px;
+    margin: 8px 21px 13px 21px;
+}
+.box-info .section{
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #989BA7;
+    text-decoration: none;
+}
+.box-info .box-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B0F1F;
+    margin-top: 13px;
+}
+.norm{
+    font-weight: normal;
+}
+.box-info-end{
+    margin-top: 20px;
+}
+.box-info .read-more{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3A63F3;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+.box-info .read-more:hover{
+    color: #203B9B;
+}
+.box-info-end .read-more:active{
+    color: #203B9B;
+}
+#news-excerpts{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#news1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 0 48px 30px;
+}
+#news-1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #0B0F1F;
+    width: 557px;
+}
+#news-1:hover{
+    color: #818181;
+}
+#little-news{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 25px 40px 121px;
+}
+.littleNews{
+    width: 461px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B0F1F;
+    margin-top: 30px;
+}
+.littleNews:hover{
+    color: #818181;
+}
+#news-end{
+    border: 4px solid #D78E2D;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#end-title{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    margin: 30px auto 0 auto;
+    width: 1044px;
+}
+#end-title:hover{
+    color: #818181;
+}
+#reference{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #B8BACD;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1049px;
+}
+#footer{
+    background: #080E24;
+}
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.time{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #989BA7;
+    display: inline-block;
+    vertical-align: middle;
+    width: 88px;
+}
+.box-info .time{
+    display: inline-block;
+    vertical-align: middle;
+}
+.news-time .time{
+    margin-top: 20px;
+}
+#end-time .time{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
