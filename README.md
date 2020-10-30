@@ -1,1 +1,3 @@
-# HTML-CSS-practice
+# Frontend practice
+
+HTML, CSS, JavaScript
