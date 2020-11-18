@@ -1,0 +1,240 @@
+@font-face {
+    src: url("../fonts/Nunito-Regular.ttf") format("truetype");
+    font-family: Nunito;
+}
+
+@font-face {
+    src: url("../fonts/Nunito-Bold.ttf") format("truetype");
+    font-family: Nunito-Bold;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+}
+
+#layout {
+    display: flex;
+}
+
+#sidebar {
+    background: #F7F7F7;
+    width: 250px;
+    flex-shrink: 0;
+    border-right: 1px solid #E2E2E2;
+}
+
+#logo {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#logo span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #4F4E4F;
+    font-family: Nunito-Bold, sans-serif;
+}
+
+#logo #blue {
+    color: #467DF2;
+}
+
+#menu .menu-item {
+    text-decoration: none;
+    display: flex;
+    padding: 17px 15px;
+    align-items: center;
+    margin: 0 17px;
+    box-sizing: border-box;
+    color: #858796;
+}
+
+.menu-item span {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 10px;
+}
+
+#menu .menu-item.active, #menu .menu-item:hover{
+    background: #467DF2;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.menu-item:hover svg path{
+    fill: white;
+}
+#header{
+    padding: 12px 40px;
+    display: flex;
+    flex-grow: 1;
+    background: #F7F7F7;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E2E2E2;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 38px;
+    height: 8px;
+}
+.line:first-child{
+    height:0;
+}
+.line:last-child{
+    width: 26px;
+}
+.header-title{
+    font-size: 14px;
+    line-height: 19px;
+    color: #858796;
+    display: flex;
+    align-items: center;
+}
+.header-title svg{
+    margin-left: 5px;
+}
+#header #left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#margin{
+    margin-left: 60px;
+    margin-right: 40px;
+}
+#search{
+    position: relative;
+}
+#right{
+    display: flex;
+    align-items: center;
+
+}
+#right input{
+    padding: 10px 40px;
+    background: #EFEFF5;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 373px;
+}
+#search svg{
+    position: absolute;
+    height: 14px;
+    top: 12px;
+    left: 18px;
+}
+#right button{
+    background: #467DF2;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Nunito-Bold, sans-serif;
+    color: #FFFFFF;
+    padding: 11px 18px;
+    border: 0;
+}
+#stat-icon{
+    margin: 0 40px;
+}
+#stat-icon:hover svg path{
+    fill: #467DF2;
+}
+#right button:hover{
+    background: #2F54A3;
+}
+.header-title:hover{
+    color: #3D63D2;
+    fill: #3D63D2;
+}
+#rect{
+    position: absolute;
+    top: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.15);
+    border-radius: 10px;
+    padding: 30px 30px 30px 20px;
+    display:none;
+    box-sizing: border-box;
+    width: 150px;
+}
+#rect .rect-title{
+    font-size: 14px;
+    line-height: 19px;
+    color: #686464;
+}
+#rect .rect-title:first-child{
+    margin-bottom: 15px;
+}
+.header-title{
+    position: relative;
+}
+.header-title:last-child:hover #rect{
+    display: block;
+}
+#content{
+    background: #E5E5E5;
+    padding-top: 25px;
+    padding-bottom: 95px;
+}
+#main-title{
+    font-size: 35px;
+    line-height: 48px;
+    font-family: Nunito-Bold, sans-serif;
+    color: #4F4E4F;
+    margin-bottom: 7px;
+    margin-left: 40px;
+}
+.box-title{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Nunito-Bold, sans-serif;
+    color: #4F4E4F;
+    margin-top: 20px;
+}
+.time{
+    font-size: 15px;
+    line-height: 30px;
+    color: #4F4E4F;
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+.box-align{
+    margin: 0 26px 21px 26px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.15);
+    border-radius: 10px;
+    max-width: 349.57px;
+    margin: 33px 20px;
+}
+.box:last-child{
+    margin-right: 0;
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 55px;
+}
+#boxes img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#boxes img:hover{
+    box-shadow: 0px 4px 20px rgba(102, 102, 102, 0.15);
+}
+.icons svg:hover path, .icons svg:hover ellipse{
+   fill : #467DF2;
+}

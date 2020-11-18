@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+}
+#back{
+    background: black;
+}
+#back-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 0;
+}
+#header-logo{
+    margin-right: 282px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.logo .logo-text{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    width: 60px;
+    margin-left: 11px;
+}
+#menu-items{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-item{
+    margin-right: 58px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+}
+#main{
+    margin: 133px auto 125px auto;
+}
+
+h1{
+    margin: 0;
+}
+#main-title{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    width: 557px;
+    margin:0;
+}
+#main-title span{
+    color: #ffaf18;
+}
+#description-items{
+    margin-top: 75px;
+}
+#main-align{
+    vertical-align: bottom;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.description-item{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+.description-image{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.description-text{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+#action-choose button{
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    margin-top: 100px;
+    /*margin-bottom: 125px;*/
+    border: rgb(255, 175, 24);
+    border-radius: 100px;
+}
+#main-image{
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#choose{
+    padding-top: 120px;
+    padding-bottom: 96px;
+}
+#choose-main-text{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+}
+#rolls-choice{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.boxes{
+    width: 282px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    height: 364px;
+    margin: 0 12px 24px 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.boxes img{
+    margin: 10px 41px 30px 41px;
+}
+.box-title{
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box-description{
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    max-width: 226px;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+}
+.box-action button{
+    background-color: rgb(255, 175, 24);
+    width: 242px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    border: rgb(255, 175, 24);
+    border-radius: 100px;
+    margin: 15px auto 15px auto;
+}
+
+#references{
+    margin-top: 120px;
+}
+#reference-main{
+    display: inline-block;
+    vertical-align: middle;
+}
+#reference-title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    width: 364px;
+}
+#reference-description{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    width: 344px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+#reference-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+#rights{
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+
+}
+#footer-logo{
+    margin-right: 390px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#rights-container{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+#footer{
+    padding: 35px 0 35px 0;
+}
