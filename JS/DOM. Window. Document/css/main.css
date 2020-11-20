@@ -1,0 +1,134 @@
+@font-face {
+    src: url("../fonts/Nunito-ExtraBold.ttf") format("truetype");
+    font-family: Nunito;
+}
+
+@font-face {
+    src: url("../fonts/Nunito-Bold.ttf") format("truetype");
+    font-family: Nunito-Bold;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(90deg, #FFFFFF 50%, #F8F8FA 50%);
+}
+
+#header {
+    margin: 0 auto;
+    padding: 27px 0;
+}
+
+#header h1 {
+    font-family: Nunito, sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+#header h1 span {
+    font-size: 1.5em;
+    color: #D72F3F;
+}
+
+#flex {
+    margin-top: 85px;
+    margin-bottom: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    max-width: 452px;
+    margin-right: 85px;
+}
+
+#right {
+    margin-left: 11px;
+}
+
+#title {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 36px;
+}
+
+#description {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 22px;
+    color: #636363;
+    margin-top: 7px;
+}
+
+form {
+    padding-top: 17px;
+}
+
+#left label {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.new-input {
+    margin-top: 25px;
+}
+
+.inner {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+    color: #323232;
+}
+
+#left .new-input input {
+    width: 100%;
+    border-bottom: 1px solid #C6C6C4;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: 0;
+    margin-top: 5px;
+}
+
+#terms {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#terms label {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+#terms input {
+    margin-right: 10px;
+}
+
+#submit {
+    padding: 21px 68px 25px 68px;
+    height: 70px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#action {
+    margin-bottom: 69px;
+    text-align: center;
+}
+
+#query {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 16px;
+    color: #636363;
+    text-align: center;
+}
