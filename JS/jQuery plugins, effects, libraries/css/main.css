@@ -1,0 +1,179 @@
+@font-face {
+    src: url("../fonts/MullerRegular.ttf") format("truetype");
+    font-family: Muller;
+}
+
+@font-face {
+    src: url("../fonts/YesevaOne.ttf") format("truetype");
+    font-family: YesevaOne;
+}
+
+@font-face {
+    src: url("../fonts/MullerBold.ttf") format("truetype");
+    font-family: MullerBold;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background: #FDFDFD;
+    box-shadow: 0px 4px 20px rgba(189, 141, 153, 0.2);
+}
+
+#header-container {
+    max-width: 1200px;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header-container img {
+    margin-right: 240px;
+}
+
+#menu-items {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-family: Muller, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #BD8D99;
+    text-decoration: none;
+}
+
+#main {
+
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main-container h1 {
+    font-family: YesevaOne, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: #4B0012;
+    margin: 80px auto 50px auto;
+    max-width: 615px;
+}
+
+#images {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.multiple-items {
+    max-width: 1110px;
+}
+
+h2 {
+    font-family: YesevaOne, sans-serif;
+    font-size: 34px;
+    color: #4B0012;
+    margin: 120px 0 45px 0;
+}
+
+.list-item {
+    position: relative;
+    font-family: Muller, sans-serif;
+    font-size: 16px;
+    color: #1E0108;
+    margin: 6px 0 6px 46px;
+}
+
+.circle {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: -18px;
+    top: calc(50% - 5.5px);
+    background: #4B0012;
+    border-radius: 50%;
+}
+
+#answers {
+    text-align: center;
+}
+
+.title {
+    font-family: MullerBold, sans-serif;
+    font-size: 18px;
+    color: #4B0012;
+    padding: 40px 0 9px 28px;
+}
+
+#flex {
+    display: flex;
+    align-items: flex-end;
+}
+
+#flex #wedding {
+    margin-left: 90px;
+    width: 335px;
+    height: auto;
+}
+
+#flex img {
+    width: 100%;
+}
+
+#tabs li {
+    font-family: Muller, sans-serif;
+    font-size: 16px;
+    color: #1E0108;
+}
+
+h3 {
+    font-family: MullerBold, sans-serif;
+    font-size: 18px;
+    color: #4B0012;
+    position: relative;
+}
+
+#accordion {
+    margin: 0 auto 65px auto;
+    width: 928px;
+}
+
+
+#accordion img{
+    position: absolute;
+    right: 33.44px;
+    top: 33.13px;
+}
+
+#footer {
+    background: #FCF4F4;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+}
+
+#footer-container img {
+    margin-right: 418px;
+}
+
+#rights {
+    font-family: Muller, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+}
