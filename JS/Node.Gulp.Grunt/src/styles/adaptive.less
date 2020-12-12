@@ -1,0 +1,488 @@
+@circle: #821328;
+@menu: #000000d9;
+
+@media screen and (max-width: 1224px) {
+    #first{
+        #header{
+            #header-container {
+                padding-right: 20px;
+                padding-left: 20px;
+                justify-content: space-between;
+                #menu-items {
+                    margin: 0;
+                }
+            }
+        }
+        #main-container {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    #second{
+        #second-container {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    #third{
+        #third-container {
+            padding-right: 20px;
+            padding-left: 20px;
+            #macaroons{
+                    margin-top: 78px;
+                    justify-content: space-around;
+                .rect {
+                    margin-top: 65px;
+                }
+            }
+        }
+    }
+
+    #fourth{
+        #fourth-container {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    #footer{
+        #footer-container {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    #second{
+        #second-container{
+            #second-2-half {
+                max-width: 600px;
+                margin: 0 auto;
+                padding-bottom: 55px;
+                .advantages {
+                    margin-bottom: 65px;
+                }
+            }
+        }
+    }
+
+    #third{
+        #third-container {
+            padding-bottom: 65px;
+            h1 {
+                margin-bottom: 55px;
+            }
+            #macaroons {
+                max-width: 675px;
+                margin: 0 auto;
+                .rect {
+                    margin-bottom: 55px;
+                }
+            }
+        }
+    }
+
+    #fourth{
+        #fourth-container {
+            align-items: flex-end;
+            #order-macaroon {
+                margin-left: 200px;
+            }
+            #last-image {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #fourth{
+        #fourth-container {
+            justify-content: center;
+            #order-macaroon {
+                margin-left: 33px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #first{
+        #main-container {
+            position: relative;
+            #main-info {
+                padding-bottom: 420px;
+            }
+            #main-image {
+                position: absolute;
+                bottom: 33px;
+                right: 35px;
+            }
+        }
+        #header{
+            #header-container {
+            padding: 0;
+            justify-content: normal;
+            overflow: hidden;
+            .logo {
+                padding-left: 20px;
+            }
+            #phone {
+                display: none;
+            }
+            #menu-items {
+                margin-left: 103px;
+            }
+        }
+        }
+    }
+
+    #second{
+        #second-container {
+            margin: 0 auto;
+            text-align: center;
+            #second-1-half {
+                display: inline-block;
+                text-align: center;
+                #second-main-info {
+                    text-align: center;
+                    margin: 0 auto;
+                    max-width: 666px;
+                    #second-title {
+                        max-width: 475px;
+                        margin: 0 auto 61px auto;
+                    }
+                    #second-description {
+                        margin: 0 auto -30px auto;
+                        max-width: 666px;
+                    }
+                }
+                #second-image {
+                    margin: 0 auto;
+                    width: 302px;
+                }
+            }
+            #second-2-half{
+                .advantages {
+                    margin-top: 80px;
+                    /*max-width: 234px;*/
+                    max-width: 218px;
+                    position: relative;
+                    &:first-child, &:nth-child(2) {
+                        margin-top: 10px;
+                    }
+                    .circle {
+                        left: 82px;
+                    }
+                }
+            }
+        }
+    }
+
+    #third{
+        #third-container {
+            padding-bottom: 78px;
+            h1 {
+                margin-bottom: 74px;
+            }
+            #macaroons{
+                .rect {
+                    margin-bottom: 74px;
+                }
+            }
+        }
+    }
+
+    #fourth{
+        #fourth-container {
+            justify-content: space-between;
+            align-items: flex-end;
+            #last-image {
+                position: absolute;
+                bottom: -50px;
+                right: 0;
+            }
+            #order-macaroon {
+                margin-left: 0;
+                position: static;
+                #strawberry-2 {
+                    top: 235px;
+                    right: 92px;
+                }
+            }
+            #strawberry {
+                top: 338px;
+                left: 371px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #first{
+        #main-container{
+            #main-image {
+                width: 430px;
+            }
+        }
+    }
+
+    #fourth{
+        #fourth-container{
+            #last-image {
+                width: 240px;
+                bottom: 19px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #first{
+        #main-container {
+            padding-right: 15px;
+            padding-left: 15px;
+            position: static;
+            text-align: center;
+            display: block;
+            #main-info {
+                margin-top: -90px;
+                padding-bottom: 0;
+                h1 {
+                    font-size: 32px;
+                }
+                #main-description {
+                    font-size: 16px;
+                    margin: 40px auto;
+                }
+            }
+            #main-image {
+                width: 250px;
+                display: block;
+                margin: 14px auto 0 auto;
+                padding-bottom: 16px;
+                position: static;
+            }
+        }
+        #header{
+            #header-container {
+                padding-right: 15px;
+                padding-left: 15px;
+                justify-content: space-between;
+                #burger {
+                    display: block;
+                    svg {
+                        width: 40px;
+                        height: 22px;
+                        fill: @circle;
+                    }
+                }
+                #menu-items {
+                    display: none;
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 0;
+                    padding-top: 30px;
+                    background: @menu;
+                    top: 0;
+                    left: 0;
+                    padding-right: 20px;
+                    /*width: 257px;*/
+                    svg {
+                        display: block;
+                        width: 24px;
+                        fill: @circle;
+                        position: absolute;
+                        left: 20px;
+                        top: 20px;
+                    }
+                    a.menu-item {
+                        margin: 15px 5px;
+                    }
+                    &.open {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+
+    #third{
+        #third-container {
+            padding: 100px 15px 26px 15px;
+            #macaroons{
+                .rect {
+                    margin-top: 32px;
+                }
+            }
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #footer{
+        #footer-container {
+            max-width: 165px;
+            flex-direction: column;
+            padding-top: 50px;
+            padding-bottom: 102px;
+            position: relative;
+            #footer-third {
+                order: 2;
+                margin-top: 40px;
+            }
+            #footer-first {
+                text-align: center;
+                order: 1;
+                #rights {
+                    position: absolute;
+                    left: calc(50% - 78px);
+                    bottom: 50px;
+                    margin-top: 0;
+                }
+            }
+            #footer-second {
+                order: 3;
+                margin-top: 40px;
+            }
+        }
+    }
+
+    #second{
+        #second-container {
+            padding-right: 15px;
+            padding-left: 15px;
+            #second-1-half{
+                #second-main-info{
+                    #second-title {
+                        font-size: 30px;
+                        max-width: 317px;
+                        padding-top: 100px;
+                        margin-bottom: 40px;
+                    }
+                    #second-description {
+                        font-size: 16px;
+                        max-width: 352px;
+                    }
+                }
+                #second-image {
+                    margin-top: 30px;
+                }
+            }
+            #second-2-half {
+                max-width: 375px;
+                padding-bottom: 100px;
+                .advantages {
+                    max-width: 173px;
+                    margin-top: 36px;
+                    margin-bottom: 0;
+                    &:first-child, &:nth-child(2) {
+                        margin-top: -15px;
+                    }
+                    .advantage-title {
+                        font-size: 20px;
+                    }
+                    .advantage-description {
+                        font-size: 13px;
+                    }
+                    .circle {
+                        left: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    #fourth{
+        #fourth-container {
+            padding-right: 15px;
+            padding-left: 15px;
+            #last-image {
+                display: none;
+            }
+            #order-macaroon {
+                margin: 0 auto;
+                #strawberry-2 {
+                    display: none;
+                }
+                input {
+                    width: 345px;
+                }
+                #order-title {
+                    font-size: 30px;
+                }
+                #order-description {
+                    font-size: 16px;
+                    max-width: 338px;
+                }
+                #button button {
+                    width: 345px;
+                }
+            }
+            #strawberry {
+                width: 66px;
+                left: 294px;
+                top: 239px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 398px){
+    #second{
+        #second-container{
+            #second-1-half{
+                #second-image {
+                    width: 100%;
+                }
+            }
+            #second-2-half {
+                display: inline-block;
+                .advantages{
+                    &:first-child {
+                        margin-top: -36px;
+                    }
+                    &:not(:last-child) {
+                        margin-bottom: 136px
+                    }
+                    .circle {
+                        left: calc(50% - 35px);
+                        top: -80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 374px) {
+    #fourth{
+        #fourth-container{
+            #strawberry {
+                display: none;
+            }
+            #order-macaroon{
+                input {
+                    width: 290px;
+                }
+                #button button {
+                    width: 290px;
+                }
+            }
+        }
+    }
+}
