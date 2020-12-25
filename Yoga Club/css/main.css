@@ -1,0 +1,672 @@
+@font-face {
+    src: url("../fonts/PlovdivDisplay-Bold.otf");
+    font-family: PlovdivDisplayBold;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Regular.ttf");
+    font-family: Gilroy;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Bold.ttf");
+    font-family: GilroyBold;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    background-image: url("../images/main-bg.png");
+    background-position: bottom;
+}
+
+/*#header-container {*/
+/*    background-color: #fef2f2;*/
+/*}*/
+
+#header {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo #logo-image {
+    margin-right: 10px;
+}
+
+#logo #logo-title {
+    font-size: 30px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+    margin-bottom: 9px;
+}
+
+#menu {
+    width: 518px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+.menu-item:hover {
+    font-weight: bold;
+}
+
+.btn1 {
+    font-size: 14px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    border-radius: 21px;
+    border-width: 1px;
+    border-color: rgb(58, 4, 19);
+    border-style: solid;
+    /*padding: 17px 35px;*/
+    width: 178px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: transparent;
+}
+
+/*#main-block-container {*/
+/*    background-image: url("../images/main-bg.png");*/
+/*    !*background-size: cover;*!*/
+/*    !*background-position: center;*!*/
+/*}*/
+
+#main-block {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 132px;
+}
+
+#main-content h1 {
+    margin: 0 0 60px 0;
+    font-size: 45px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+    width: 485px;
+}
+
+#main-content #main-text {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.278;
+    width: 382px;
+    margin-bottom: 62px;
+}
+
+.btn {
+    background-image: -moz-linear-gradient(90deg, rgb(159, 37, 70) 0%, rgb(197, 81, 113) 51%, rgb(235, 125, 156) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(159, 37, 70) 0%, rgb(197, 81, 113) 51%, rgb(235, 125, 156) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(159, 37, 70) 0%, rgb(197, 81, 113) 51%, rgb(235, 125, 156) 100%);
+    box-shadow: 0px 6px 6.51px 0.49px rgba(159, 37, 70, 0.22);
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    height: 60px;
+    font-size: 20px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(254, 254, 254);
+}
+
+#main-content #main-action button {
+    width: 260px;
+}
+
+#main-block #main-image {
+    margin-right: 55px;
+}
+
+#welcome-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#welcome-title {
+    font-size: 35px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+    line-height: 1.143;
+    margin-bottom: 39px;
+    width: 330px;
+}
+
+#welcome-text {
+    width: 429px;
+    text-align: left;
+}
+
+.text {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.643;
+    text-align: center;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#numbers {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 55px auto 0 auto;
+    width: 907px;
+}
+
+.number {
+    font-size: 50px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(159, 37, 70);
+}
+
+.number-item {
+    text-align: center;
+}
+
+.number-description {
+    line-height: 1.357;
+    width: 142px;
+}
+
+.number-item:nth-child(2) .number-description {
+    width: 186px;
+}
+
+#teachers-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#teachers {
+    text-align: center;
+}
+
+#teachers h2 {
+    margin: 118px 0 36px 0;
+    font-size: 35px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+}
+
+#teachers-description {
+    width: 608px;
+    margin: 0 auto;
+}
+
+#teachers-block {
+    width: 978px;
+    margin: 47px auto 120px auto;
+    position: relative;
+}
+
+#teachers-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teacher {
+    text-align: center;
+}
+
+.teacher .teacher-photo img {
+    border-radius: 50%;
+}
+
+.teacher .teacher-name {
+    font-size: 14px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    margin: 29px 0 11px 0;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+.teacher .experience {
+    margin-top: 6px;
+}
+
+#first {
+    position: absolute;
+    top: -30px;
+    z-index: -1;
+    left: 44px;
+}
+
+#second {
+    position: absolute;
+    top: -30px;
+    z-index: -1;
+    left: 386px;
+}
+
+#third {
+    position: absolute;
+    top: -30px;
+    right: -42px;
+    z-index: -1;
+}
+
+#left {
+    position: absolute;
+    top: calc(50% - 20px - 60px);
+    left: -79px;
+    cursor: pointer;
+}
+
+#right {
+    position: absolute;
+    top: calc(50% - 20px - 60px);
+    right: -79px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+#directions-container {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#directions-container h2 {
+    font-size: 35px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+}
+
+#directions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dir-image {
+    border-width: 6px;
+    border-color: rgb(170, 86, 110);
+    border-style: solid;
+    border-radius: 50%;
+    width: 251px;
+    height: 251px;
+    position: relative;
+}
+
+.dir-image img {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 102px);
+}
+
+.dir-name {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    margin: 28px 0 17px 0;
+}
+
+.dir-price {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+.dir-price span {
+    font-size: 30px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    margin: 0 7px 0 7px;
+}
+
+#dir-action {
+    margin: 36px auto 117px auto;
+    text-align: center;
+}
+
+#dir-action button {
+    width: 300px;
+}
+
+#halls-container {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#halls-container h2 {
+    font-size: 35px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(159, 37, 70);
+    margin: 0 0 36px 0;
+}
+
+#halls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.hall #back, .hall #back2 {
+    position: absolute;
+}
+
+.hall #back {
+    top: 53px;
+    left: -23px;
+}
+
+.hall #back2 {
+    top: 13px;
+    left: -41px;
+}
+
+.hall-name {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+.hall-text {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.357;
+    width: 331px;
+}
+
+.hall {
+    position: relative;
+}
+
+#a1, #a2, #a3, #b1, #b2, #b3 {
+    position: absolute;
+}
+
+#a1 {
+    top: 0;
+    order: 3;
+    left: 15px;
+}
+
+#a2 {
+    order: 2;
+    top: 56px;
+    left: 162px;
+}
+
+#a3 {
+    order: 1;
+    top: 157px;
+    left: 72px;
+}
+
+#b1 {
+    order: 3;
+    top: 159px;
+    left: 0;
+}
+
+#b2 {
+    order: 2;
+    left: 194px;
+    top: 157px;
+}
+
+#b3 {
+    order: 1;
+    top: 283px;
+    left: 139px;
+}
+
+.hall:first-child {
+    margin-right: 131px;
+}
+
+.hall:first-child .hall-name {
+    margin-top: 326px;
+    margin-bottom: 21px;
+}
+
+.hall:last-child .hall-name {
+    margin-bottom: 17px;
+}
+
+.hall:last-child {
+    margin-left: 131px;
+    margin-top: -319px;
+}
+
+#halls-action button {
+    width: 260px;
+    margin-top: 46px;
+    margin-bottom: 119px;
+}
+
+#footer-container {
+    background-color: #9f2546;
+    margin-top: 672px;
+}
+
+#footer {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 42px 0;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 66px;
+}
+
+#footer-logo img {
+    margin-right: 11px;
+}
+
+#footer-logo span {
+    font-size: 30px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    margin-bottom: 9px;
+}
+
+#rights {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    margin-right: 97px;
+}
+
+#polit {
+    margin-right: 96px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#phone {
+    margin-right: 24px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#phone span {
+    margin: 0 9px 0 9px;
+}
+
+#footer .btn1 {
+    color: white;
+    border-color: white;
+}
+
+#map {
+    position: relative;
+}
+
+#map #side {
+    position: relative;
+    width: 50%;
+    order: 2;
+}
+
+#map iframe {
+    width: 100%;
+    height: 672px;
+    order: 1;
+    position: absolute;
+}
+
+#form {
+    background-color: #fef2f2;
+    padding: 0 72px 50px 52px;
+    position: absolute;
+    top: 0;
+    right: 190px;
+}
+
+#form svg {
+    width: 35px;
+    height: 35px;
+    margin: 12px 18px 78px 0;
+}
+
+#form svg:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#form svg path {
+    fill: #9f2546;
+}
+
+#form h3 {
+    font-size: 30px;
+    font-family: "PlovdivDisplayBold", sans-serif;
+    color: rgb(58, 4, 19);
+    margin: 50px 0 29px 0;
+}
+
+#br {
+    margin-top: 9px;
+    display: block;
+    width: 100%;
+}
+
+#form .list {
+    padding-left: 23px;
+    margin-bottom: 19px;
+}
+
+#form .list span {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#form .list #l1 {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: #9f2546;
+    border-radius: 50%;
+    top: 125px;
+    left: 52px;
+}
+
+#form .list #l2 {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: #9f2546;
+    border-radius: 50%;
+    top: 188px;
+    left: 52px;
+}
+
+#form .list #l3 {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: #9f2546;
+    top: 225px;
+    left: 52px;
+    border-radius: 50%;
+}
+
+#icons {
+    margin-top: 31px;
+}
+
+#write span {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#write input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #9f2546;
+    padding: 8px 0;
+    background-color: transparent;
+}
+
+#write .input {
+    margin-top: 21px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#write button {
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 41px;
+}
+
+
+
+
