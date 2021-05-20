@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment1</title>
+    <style>
+        #first {
+            background-image: linear-gradient(30deg, #91e8e1, #2f7ed8);
+            padding: 30px;
+            margin: 30px;
+            border-radius: 30px;
+        }
+
+        #box {
+            padding: 30px;
+            margin: 30px;
+            border-radius: 30px;
+            animation: myanim 3s infinite;
+            position: relative;
+        }
+
+        @keyframes myanim {
+            0% {
+                left: 0;
+                top: 0;
+            }
+
+            25% {
+                left: 500px;
+                top: 0;
+            }
+
+            50% {
+                left: 500px;
+                top: 500px;
+            }
+
+            75% {
+                left: 0;
+                top: 500px;
+            }
+
+            100% {
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="first" align="center">
+        <h1>My CSS Page</h1>
+    </div>
+</div>
+<br><br>
+<div>
+    <div id="box">
+        <img src="pic.png" style="width: 300px;">
+    </div>
+</div>
+<br><br>
+<marquee>Zhansaya</marquee>
+</body>
+</html>
